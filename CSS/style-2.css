@@ -1,0 +1,448 @@
+/**********************************************general**********************/
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+/**************************************start section one**********************/
+.sectionOne {
+  background-color: transparent;
+  width: 100%;
+}
+
+.container1 {
+  background-color: transparent;
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+}
+
+.image img {
+  width: 40vh;
+  border: 30px solid transparent;
+  border-radius: 50px;
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.head-text h1 {
+  width: 40%;
+  font-size: 60;
+  background-color: transparent;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.head-text p {
+  width: 40%;
+  font-size: 20;
+  background-color: transparent;
+  margin-left: 5%;
+}
+
+.black-btn {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  font-size: 15;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.white-btn {
+  background-color: white;
+  color: rgb(117, 116, 116);
+  padding: 2%;
+  text-align: center;
+  font-size: 15;
+  border-radius: 10px;
+  border-color: rgb(91, 88, 88);
+  cursor: pointer;
+}
+
+p {
+  color: rgb(112, 109, 109);
+}
+
+/**************************************end section one**********************/
+/**************************************start section two**********************/
+.sectionTwo {
+  background-color: transparent;
+  width: 100%;
+}
+
+.container2 {
+  background-color: transparent;
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+}
+
+.text h2 {
+  font-size: 40;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.text p {
+  font-size: 20;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.all-cards {
+  background-color: transparent;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+.card {
+  background-color: transparent;
+  width: 30vh;
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  padding: 2%;
+}
+
+.square1 {
+  border: 10px #155dfc solid;
+  border-width: 20px;
+  border-radius: 25px;
+  height: 30px;
+  background-color: white;
+  width: 30px;
+  margin: auto;
+}
+
+.square2 {
+  border: 10px #009966 solid;
+  border-width: 20px;
+  border-radius: 30px;
+  height: 30px;
+  background-color: white;
+  width: 30px;
+  margin: auto;
+}
+
+.square3 {
+  border: 10px #9810fa solid;
+  border-width: 20px;
+  border-radius: 25px;
+  height: 30px;
+  background-color: white;
+  width: 30px;
+  margin: auto;
+}
+
+.one {
+  border: 1px #bedbff solid;
+  border-radius: 15px;
+  background-color: #dbeafe;
+}
+
+.two {
+  border: 1px #a4f4cf solid;
+  border-radius: 15px;
+  background-color: #d0fae5;
+}
+
+.three {
+  border: 1px #e9d4ff solid;
+  border-radius: 15px;
+  background-color: #f3e8ff;
+}
+
+.cardText p {
+  font-size: 15;
+  text-align: center;
+}
+
+/**************************************end section two**********************/
+
+/**************************************start section three**********************/
+
+.sectionThree {
+  background-color: transparent;
+  width: 100%;
+}
+
+.container3 {
+  background-color: transparent;
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+  margin-top: 2%;
+}
+
+.image3 img {
+  width: 57vh;
+  border: 10px solid transparent;
+  border-radius: 25px;
+  float: left;
+  margin-left: 5%;
+  clear: both;
+}
+
+.heading3 {
+  width: 35%;
+  margin-left: 51%;
+}
+
+.all-text3 {
+  background-color: transparent;
+  width: 35%;
+  margin-left: 51%;
+}
+
+.one3 {
+  border-left: 3px solid black;
+  padding-left: 3%;
+}
+
+.two3 {
+  border-left: 3px solid black;
+  padding-left: 3%;
+}
+
+.three3 {
+  border-left: 3px solid black;
+  padding-left: 3%;
+}
+
+/**************************************end section three**********************/
+
+/**************************************start section four**********************/
+.sectionFour {
+  background-color: #f9fafb;
+  width: 100%;
+  overflow: auto;
+  margin-top: 3%;
+}
+
+.container4 {
+  width: 70%;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.heading4 {
+  text-align: center;
+  font-size: 20;
+}
+
+.heading4 h2 {
+  font-size: 40;
+}
+
+.card4 {
+  width: 30vh;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 3%;
+}
+
+.card4 img {
+  width: 8vh;
+  border-radius: 50%;
+  float: left;
+  margin-top: 10px;
+}
+
+.card4 .name {
+  font-size: 17;
+}
+
+.one4 {
+  background-color: #eff6ff;
+  border-color: #bedbff;
+}
+
+.two4 {
+  background-color: #ecfdf5;
+  border-color: #a4f4cf;
+}
+
+.three4 {
+  background-color: #faf5ff;
+  border-color: #e9d4ff;
+}
+
+.number {
+  font-size: 25;
+  display: inline-block;
+  text-align: center;
+  margin-left: 11%;
+}
+
+.number p {
+  font-size: 20;
+}
+
+.numbers {
+  width: 90%;
+  border: 1px solid #86add5;
+  background-color: #f1f5f9;
+  border-radius: 25px;
+  margin-left: 3%;
+}
+
+/**************************************end section four**********************/
+
+/**************************************start section five**********************/
+.sectionFive {
+  width: 100%;
+  background-color: transparent;
+  overflow: auto;
+}
+
+.container5 {
+  width: 70%;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.heading5 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.heading5 h2 {
+  font-size: 40;
+}
+
+.heading5 p {
+  font-size: 20;
+  width: 45%;
+  margin: auto;
+}
+
+.form5 table {
+  background-color: #f9fafb;
+  margin: auto;
+  width: 60%;
+  border: 1px solid #f9fafb;
+  border-radius: 15px;
+  font-size: 20;
+  padding: 3%;
+}
+
+.form5 input,
+select,
+textarea {
+  border: 1px solid #f9fafb;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 15;
+  padding: 3%;
+}
+
+.form5 button {
+  width: 100%;
+  padding: 2%;
+  font-size: 20;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.form5 .policy {
+  font-size: 15;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/**************************************end section five**********************/
+
+/**************************************start section six**********************/
+.sectionSix {
+  width: 100%;
+  background-color: #101828;
+  overflow: auto;
+  margin-top: 5%;
+}
+
+.container6 {
+  width: 75%;
+  background-color: transparent;
+  margin: auto;
+  /**border-bottom: 1px solid white;*/
+}
+
+.card6 {
+  background-color: transparent;
+
+  margin: 1%;
+}
+
+.one6 {
+  width: 36%;
+  font-size: 18;
+  background-color: transparent;
+  color: white;
+  padding: 1%;
+  float: left;
+  clear: both;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.two6 {
+  width: 20%;
+  font-size: 18;
+  width: 20%;
+  background-color: transparent;
+  color: white;
+  padding: 1%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.three6 {
+  width: 17%;
+  font-size: 16;
+
+  background-color: transparent;
+  color: white;
+  padding: 1%;
+  float: left;
+  margin-top: 3%;
+}
+
+.btn6 {
+  background-color: #101828;
+
+  color: white;
+  border: 1px solid transparent;
+}
+
+.card6 h3 {
+  font-size: 20;
+}
+
+.p6 {
+  border-top: 1px solid white;
+  margin-left: 10%;
+}
+
+/**************************************end section six**********************/
