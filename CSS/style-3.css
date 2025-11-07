@@ -1,0 +1,824 @@
+/*****************************************General***********************************************/
+html {
+     scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 5%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-purple {
+    color: #8E51FF;
+}
+
+.column-gap-2 {
+    column-gap: 2%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-style-bold {
+    font-weight: bold;
+}
+
+
+/****************************************************************************************/
+
+/******************************************Start Navbar**********************************************/
+.navbar {
+    background-color: #F5F3FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 111;
+}
+
+.navbar-container {
+    width: 65%;
+    margin: auto;
+    background-color: #F5F3FF;
+    padding: 1%;
+}
+
+.logo {
+    background-color: #F5F3FF;
+    column-gap: 2%;
+}
+
+.logo img {
+    width: 10%;
+    background-color: #8E51FF;
+    padding: 2%;
+    border-radius: 10px ;
+}
+
+.logo h3 {
+   margin-top: 1.5%;
+   font-size: x-large;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links {
+    width: 45%;
+    font-size: larger;
+    cursor: pointer;
+}
+
+li {
+    color: black;
+    transition: color 0.1s;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+li:hover {
+    color: #8E51FF;
+    border-bottom: 2px solid #8E51FF; 
+}
+
+
+/******************************************End Navbar**********************************************/
+
+/*****************************************Start Section One****************************************/
+
+.image1 {
+    border: 1px solid #D3D5DB;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.imagebox1 p {
+    position: absolute;
+    background-color: #8E51FF;
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+.image1 img {
+    width: 100%;
+    border-radius: 50px;
+    padding: 5%;
+
+}
+
+.containerOne {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 5%;
+    background-color: transparent
+
+}
+
+.content1 {
+    line-height: 1.8;
+    align-content: end;
+    color: #333333;
+
+}
+
+.smallboxes1{
+    column-gap: 5%;
+}
+
+.content1 .boxes p {
+    font-size: 18px;
+    background-color: #8E51FF;
+    color: white;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 50px;
+
+}
+
+.content1 h2{
+    font-size: 40px;
+}
+
+.content1 p {
+    font-size: 20px;
+}
+
+.prices1 {
+    margin-top: 2%;
+    column-gap: 3%;
+    align-items: center;
+
+}
+
+.firstprice p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.secondprice p {
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.savebox1 {
+    padding: 1%;
+    color: #E7000B;
+    background-color: #FFE2E2;
+    border-radius: 50px;
+}
+
+.savebox1 p {
+    font-size: 15px;
+}
+
+.btns1 button{
+    margin-top: 2%;
+    width: 100%;
+    padding: 2%;
+    font-size: 18px;
+    column-gap: 1%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+    
+}
+.btns1 button:hover {
+    transform: scale(1.05);
+}
+
+.btns1 .purplebtn1 button {
+    background-color: #8E51FF;
+    border: 1px solid #8E51FF;
+    color: white;
+    font-weight: bold;
+}
+
+.btns1 .whitebtn1 button{
+ background-color: white;
+ color: #333333;
+ border: 1px solid #D3D5DB;
+   
+}
+
+
+/*****************************************End Section One****************************************/
+
+/*****************************************Start Section Two**************************************/
+.sectionTwo {
+    background-color: #F7F5FF;
+}
+
+.title2 {
+    text-align: center;
+    line-height: 1.8;
+    color: #333333;
+
+}
+
+.title2 h2 {
+    font-size: 40px;
+}
+
+.title2 p {
+    font-size: 20px;
+}
+
+.table2{
+   margin-top: 3%;
+   border: 1px solid #D1D5DC;
+   border-radius: 25px;
+   padding: 3%;
+   line-height: 3;
+}
+
+
+.table2 table {
+   
+    width: 100%; 
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.colored {
+    background-color: #EDE9FE;
+}
+
+.border-top-radius-25 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.border-buttom-radius-25 {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.checked{
+    color: #FDC700;
+}
+
+.colored-gray {
+    color: #D1D5DC;
+}
+
+.small-boxex2 {
+    background-color: #8E51FF;
+    color: white;
+    font-weight: bold;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+
+.tr-buttom-color {
+    border-bottom: 1px solid #DADEE3;
+}
+
+.first-color {
+    color: #00B8DB
+}
+
+.second-color {
+    color: #00BBA7;
+}
+
+.third-color {
+    color: #00C951;
+}
+
+.forth-color {
+    color: #FF6900;
+}
+
+.fifth-color {
+    color: #FB2C36;
+}
+
+.sixth-color {
+    color: #00A6F4;
+}
+
+.seventh-color {
+    color: #615FFF ;
+}
+
+.eigth-color {
+    color: #2B7FFF;
+}
+
+.ninth-color {
+    color: #F0B100;
+}
+
+.none-color {
+    color: #F54A00;
+}
+
+
+.winner-box {
+    margin-top: 3%;
+    column-gap: 1%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2%;
+    border: 1px solid #E5E7EB;
+    border-radius: 25px;
+    color: #00A63E;
+    margin-left: 35%;
+    margin-right: 35%; 
+}
+
+.winner-box .text2 p {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.winner-box i {
+    font-size: 35px;
+    color: #00C951;
+}
+
+
+/*****************************************End Section Two****************************************/
+
+/*****************************************Start Section Three************************************/
+.title3 {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.container3 {
+    margin-top: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 3%;
+    
+
+}
+
+.h2-font-40 {
+    font-size: 40px;
+}
+
+.para-font-20 {
+    font-size: 20px;
+}
+.para-font-15 {
+    font-size: 15;
+}
+
+.rate-box {
+    border: 3px solid #E5E7EB;
+    border-radius: 25px;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.8;
+    background-color: transparent;
+    flex-basis: 55%;
+    height: fit-content;
+    position: sticky;
+    top:10%;
+    
+
+}
+
+.stars i {
+    font-size: 23px;
+    color: #FDC700;
+}
+
+.d-flex-colm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 5px;
+}
+
+.percentages {
+    margin-top: 2%;
+    column-gap: 2%;
+}
+
+
+.results {
+    justify-content: space-between;
+    margin-top: 5%;
+    border-top: 2px solid #E5E7EB;
+    padding-top: 5%;
+}
+
+
+.customers {
+   background-color: transparent;
+}
+
+.all-boxs3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+
+.start img {
+    width: 12%;
+    border-radius: 50px;
+    border: 2px solid #A684FF;
+    height: 90%;
+
+}
+
+.start {
+    column-gap: 3%;
+    
+}
+
+.stars3 {
+    column-gap: 3%;
+    flex-basis: 50%;
+}
+
+
+.box-title3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.name {
+    line-height: 1.8;
+}
+
+.end {
+    flex-basis: 30%;
+    line-height: 1.8;
+    text-align: right;
+    background-color: transparent;
+}
+
+.box3one {
+    border: 3px solid #E5E7EB;
+    border-radius: 25px;
+    padding: 3%;
+}
+
+.comment3 {
+    margin-top: 3%;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+
+.purple-box {
+    background-color: #EDE9FE;
+    color: #7008E7;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 25px;
+}
+
+
+/*******************for box3/4***********************/
+.imgbox34 img {
+   height: 90%;
+}
+
+.star34 .rate3 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;    
+}
+/*******************for box3/4***********************/
+
+.load-btn3 {
+    margin-top: 5%;
+}
+
+
+.load-btn3 button {
+    background-color: #8E51FF;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 3%;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #8E51FF;
+    margin-left: 37%;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.load-btn3 button:hover {
+    color: #8E51FF;
+    background-color: white;
+}
+
+
+
+/*****************************************End Section Three****************************************/
+
+/*****************************************Start Section Four***************************************/
+.title4 {
+    text-align: center;
+    line-height: 1.8;
+}
+
+.sectionFour {
+    background-color: #F7F5FF;
+}
+
+.all-cards4 {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 3%;
+    position: relative;
+}
+
+.image4 img{
+    width: 100%;
+    border-radius: 20px;
+     transition: transform 0.3s ease-out;
+    
+}
+.image4 img:hover {
+    transform: scale(1.05);
+}
+
+
+.imagebox4 p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: -17%;
+    margin-left: 1%;
+}
+
+.card1four {
+    border: 3px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: white;
+    
+}
+
+.description4 {
+    margin-top: 5%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.description4 h4 {
+    font-size: 25px;
+}
+
+.price4 {
+    margin-top: 10%;
+}
+
+.purple-box4 {
+    background-color: #8E51FF;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.view-button4 {
+    margin-top: 5%;
+}
+
+.view-button4 button {
+    background-color: white;
+    color: #8E51FF;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #8E51FF;
+    margin-left: 41%;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.view-button4 button:hover {
+    color: white;
+    background-color: #8E51FF;
+}
+
+.box4-1 {
+    background-color: #00BBA7;
+}
+
+.box4-2 {
+   background-color: #00C951;
+}
+
+.box4-3 {
+    background-color: #00B8DB;
+}
+
+.box4-4 {
+    background-color: #FF6900;
+}
+
+
+/*****************************************End Section Four****************************************/
+
+/*****************************************Start Section Five***************************************/
+.sectionFive {
+    background-color: #101828;
+    color: white;
+}
+
+.all-cards5 {
+    display: flex;
+    column-gap: 3%;
+    justify-content: space-between;
+}
+
+.card5width {
+    flex-basis: 27%;
+   
+}
+
+.logo5 {
+    column-gap: 2%;
+}
+
+.logo5 img{
+    width: 18%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.txt5 p{
+    margin-top: 5%;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.icons5 {
+    margin-top: 8%;
+}
+
+.icons5 .fa {
+   font-size: 25px;
+   background-color: rgb(105, 103, 103);
+   padding: 2%;
+   border-radius: 5px;
+   transition: background-color 0.1s;
+}
+
+.fa-facebook:hover {
+    background-color: #1877F2;
+}
+
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    background-color: #E4405F;
+}
+
+.fa-youtube:hover {
+    background-color: #FF0000;
+}
+
+.txt5two {
+    margin-top: 10%;
+}
+
+.txt5two li {
+    color: gray;
+    line-height: 2;
+    font-size: 18px;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.txt5two li:hover {
+    color: white;
+}
+
+.end5 {
+    border-top: 1px solid gray;
+    margin-top: 5%;
+    display: flex;
+}
+
+.endtxt {
+    margin-top: 4%;
+    flex-basis: 50%;
+}
+
+.images5 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    column-gap: 1%;
+}
+
+.images5 img {
+   margin-top:20%;
+   background-color: white;
+   border-radius: 10px;
+   
+   
+}
+
+.image5one img {
+    width: 50%;
+    padding: 6%;
+}
+
+.image5two img {
+    width: 32%;
+    padding: 5%;
+}
+
+.image5three img {
+    width: 40%;
+    padding: 7%;
+}
+/*****************************************End Section Five****************************************/
