@@ -1,6 +1,6 @@
-* {
+body {
     box-sizing: border-box;
-    font-family: EXO, sans-serif;
+    font-family: "Exo", sans-serif;
 }
 
 .float-right {
@@ -16,41 +16,347 @@
 }
 
 
+.text-grad {
+    background-image: linear-gradient(to right, #8122FE, #B161C8, #D78580, #FB9900);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.color-gray {
+    color: #4A5565;
+}
+
 
 
 /********************Section One*************************/
 
+.sectionOne {
+    background-image: linear-gradient(#4d179acc, #59168bcc) , url(../img/sectionHero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+.heading1 {
+    padding-top: 15%;
+    padding-left: 22%;
+    padding-right: 22%;
+}
 
+.form {
+    width: 65%;
+}
 
+.btn1 button {
+    border: #9315FB;
+    background-color: #9315fbd8;
+}
 
+.btn1 button:hover {
+    background-color: #9315FB;
+}
 
-
-
-
-
-
-
-
-
-
+.ratings {
+    width: 60%;
+}
 
 
 /***************End Section One*****************************/
 
 /**************Section Two**********************************/
+
+.sectionTwo {
+    background-color: #F9FAFB;
+}
+
+.premium-design {
+    border: 1px solid #DDD6FF;
+    background-color: #F8F5FF;
+    color: #7F22FE;  
+}
+
+.premium-design::before {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#872AFF;
+    position: absolute;
+    top:23%;
+    left: 37%;
+}
+
+.premium-design::after {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#9234FF;
+    position: absolute;
+    top:23%;
+    right: 37%;
+}
+
+.heading2 {
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.card img {
+   width: 100%;
+   cursor: pointer;
+}
+
+.ribbon1 p {
+    background-color: #7F22FE;
+}
+
+.ribbon2 {
+    margin-left: 85%; 
+    cursor: pointer;
+}
+
+.ribbon2:hover {
+    color: #FB2C36;
+}
+
+.ribbon3 {
+    margin-top: 85%;
+}
+
+.bg-green {
+    background-color: #00A63E;
+}
+
+.bg-amber {
+    background-color: #E17100;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.03);
+}
+
+.name img {
+    width: 20%;
+}
+
+.card-end a {
+    background-color: #f1f0f7d7;
+    color: #8222FE;
+}
+
+.card-end a:hover {
+    background-color: #EDE9FE;
+    color: #8222FE;
+}
+
 /***************End Section Two*****************************/
 
 
 /**************Section Three**********************************/
+.sectionThree {
+   /* background-color: beige;*/
+}
+
+.nav-item button {
+    color: #7F22FE;
+}
+
+.head3::after {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#9234FF;
+    position: absolute;
+    top:27%;
+    right: 37%;
+}
+
+.head3::before {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#872AFF;
+    position: absolute;
+    top:27%;
+    left: 37%;
+}
+
+.nav1section .image3 img {
+    width:90%;
+   
+}
+.nav1section p {
+    color: #4A5565;
+}
+
+.nav1section button {
+    background-color: #7F22FE;
+    border: none;
+}
+
+.nav1section button {
+    border: #9315FB;
+    background-color: #9315fbd8;
+}
+
+.nav1section button:hover {
+    background-color: #9315FB;
+}
+
+.icon3one i{
+    background-color: #EDE9FE;
+    color: #8226FE;
+}
+
+.ribbon3one {
+    z-index: 111;
+    margin-top: -15%;
+    margin-left: -5%;
+}
+
+.ribbon3one h4 {
+    color: #9810FA;
+}
+
+.icon3two i {
+    background-color: #DBFCE7;
+    color: #00A63E;
+}
+
+.nav-content2 button {
+    border: none;
+    background-color: #148543e5;
+}
+
+.nav-content2 button:hover {
+    background-color: #008236;
+}
+
+.ribbon3two {
+    margin-left: 65%;
+}
+
+.ribbon3two h4 {
+    color: #00A63E;
+}
+
+.ribbon3three h4 {
+    color: #9810FA;
+}
+
+.icon3four i{
+    background-color: #FEF9C2;
+    color: #D08700;
+}
+
+.content3four button {
+    background-color: #d18f15f1;
+}
+
+.content3four button:hover {
+    background-color: #D08700;
+}
+
+.ribbon3four {
+    margin-top: -15%;
+    margin-left: 70%;
+}
+
+.ribbon3four h4 {
+    color: #D08700;
+}
+
+.icon3five i {
+    color: #4F39F6;
+    background-color: #E0E7FF;
+}
+
+.content3five button {
+    background-color: #5c48f7ee;
+}
+
+.content3five button:hover {
+    background-color: #4F39F6;
+}
+
+.ribbon3five h4 {
+    color: #4F39F6;
+}
 /***************End Section Three*****************************/
 
 
 /**************Section Four**********************************/
+.sectionFour {
+    background-color: #56178F;
+}
+
+.color-offwhite {
+    color: #DDD6FF;
+}
+
+.content4head::after {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#FD9900;
+    position: absolute;
+    top:23%;
+    right: 37%;
+}
+
+.content4head::before {
+    content: " ";
+    width: 5%;
+    height: 3px;
+    background-color:#FD9900;
+    position: absolute;
+    top:23%;
+    left: 37%;
+}
+
+.content4one {
+   width: 80%;
+}
+
+.content4end img {
+    width:10%;
+}
+
+.carousel-control-prev-icon {
+    background-color: #7345acd0;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+}
+
+.carousel-control-next-icon {
+    background-color: #7345acd0;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+}
+
 /***************End Section Four*****************************/
 
 
 /**************Section Five**********************************/
+.sectionFive {
+    background-color: #F9FAFB;
+}
+
+.head5color {
+    color: #7F22FD;
+}
+
+.accordion {
+    width: 75%;
+}
+
 /***************End Section Five*****************************/
 
 
