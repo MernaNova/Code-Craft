@@ -361,6 +361,141 @@ body {
 
 
 /**************Section Six**********************************/
+.sectionSix {
+    background-color: beige;
+}
+
+.container6 {
+    background-color: white;
+}
+
+.part6one .card {
+    width: 25%;
+    border: 1px solid #dbdbdb;
+    transition: transform 0.5s;
+}
+
+.part6one .card span {
+    transition: transform 0.3s;
+}
+
+.part6one .card:hover span {
+    transform: scale(1.08);
+}
+
+.card6one:hover  {
+    border: 2px solid #C4B4FF;
+    transform: translateY(-10px);
+}
+
+.card6two:hover {
+    border: 2px solid #DAB2FF;
+    transform: translateY(-10px);
+}
+
+.card6three:hover {
+    border: 2px solid #F4A8FF;
+    transform: translateY(-10px);
+}
+
+.card6four:hover {
+    border: 2px solid #A3B3FF;
+    transform: translateY(-10px);
+}
+
+.icon6one {
+    background-color: #863CFF;
+    transition: width 0.3s;
+}
+
+
+.icon6two  {
+    background-color: #9E27FE;
+}
+
+.icon6three  {
+    background-image: linear-gradient(to bottom right, #E55CD2,#EF8090, #F48B66, #F89247);
+}
+
+.icon6four {
+    background-color: #564AFB;
+}
+
+.btn6one {
+    color: #7b19ecce;
+}
+
+.btn6one:hover {
+    color: #7008E7;
+}
+
+.btn6two {
+    color: #902ed1d0;
+}
+
+.btn6two:hover {
+    color: #8200DB;
+}
+
+.btn6three {
+    color: #E60076;
+}
+
+.btn6four {
+    color: #4d39d3ce;
+}
+
+.btn6four:hover {
+    color: #432DD7;
+}
+
+/*part6two*/
+.part6two {
+    background-color: burlywood;
+}
+
+.contact-info {
+    border: 2px solid gray;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.contact-fa1 {
+    color: #7F22FE;
+}
+
+.contact-fa2 {
+    color: #9810FA;
+}
+
+.contact-fa3 {
+    color: #E60076;
+}
+
+.contact-fa4 {
+    color: #4F39F6;
+}
+
+.connect-us {
+    border: 2px solid gray;
+    background-color: #8D1BFC;
+}
+
+.social-media-icons i{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    cursor: pointer;
+}
+
+.social-media-icons span {
+    transition: transform 0.3s;
+}
+
+.social-media-icons span:hover {
+    transform: scale(1.2);
+}
 /***************End Section Six*****************************/
 
 
