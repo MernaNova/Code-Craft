@@ -158,9 +158,6 @@ body {
 
 
 /**************Section Three**********************************/
-.sectionThree {
-   /* background-color: beige;*/
-}
 
 .nav-item button {
     color: #7F22FE;
@@ -494,7 +491,32 @@ body {
 
 .social-media-icons span:hover {
     transform: scale(1.2);
+} 
+
+/*form*/
+.form6two {
+    border: 3px solid #F3F4F6;
 }
+
+.red {
+    color: red;
+}
+
+.formbtn6 button{
+    background-color: #9515FB;
+    border: none;
+    transition: tranform 0.2s;
+}
+
+.formbtn6 button:hover {
+    transform: translateY(-5px);
+}
+
+.bg-offwhite {
+    background-color: #F9FAFB;
+}
+
+
 /***************End Section Six*****************************/
 
 
