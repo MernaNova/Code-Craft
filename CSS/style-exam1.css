@@ -362,7 +362,7 @@ body {
 
 /**************Section Six**********************************/
 .sectionSix {
-    background-color: beige;
+    background-color: white;
 }
 
 .container6 {
@@ -451,11 +451,11 @@ body {
 
 /*part6two*/
 .part6two {
-    background-color: burlywood;
+    background-color: white;
 }
 
 .contact-info {
-    border: 2px solid gray;
+    background-color: #F6F7F9;
 }
 
 .pointer {
@@ -479,7 +479,6 @@ body {
 }
 
 .connect-us {
-    border: 2px solid gray;
     background-color: #8D1BFC;
 }
 
