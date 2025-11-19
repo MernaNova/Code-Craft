@@ -19,10 +19,73 @@
     <!----Link CSS-->
     <link rel="stylesheet" href="CSS/style-exam1.css" />
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navId">
+<!------------------------------Navbar---------------------------------------->
+<nav id="#navId" class="navbar navbar-expand-lg bg-white position-fixed top-0 start-0 end-0 z-3">
+
+  <div class="container">
+
+    <a class="navbar-brand fw-bold fs-4 py-3" href="#">EliteHomes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav ms-auto column-gap-3">
+
+        <li class="nav-item nav-element fw-bold">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item dropdown nav-element fw-bold">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Properties
+          </a>
+          
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item nav-element fw-bold">
+          <a class="nav-link" href="#sec-three">Services</a>
+        </li>
+
+        <li class="nav-item nav-element  fw-bold">
+          <a class="nav-link" href="#sec-four">Testimonials</a>
+        </li>
+
+        <li class="nav-item nav-element  fw-bold">
+          <a class="nav-link" href="#sec-five">FAQ</a>
+        </li>
+
+        <li class="nav-item nav-element  fw-bold">
+          <a class="nav-link" href="#sec-six">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<!-------------------------------end Navbar----------------------------------------------->
 
 <!------------------------------Section One----------------------------------->
-<div class="sectionOne vh-100">
+<div class="sectionOne vh-100" id="home">
     <div class="container vh-100 text-center text-white">
 
         <div class="heading1">
@@ -284,7 +347,7 @@
 <!------------------------End Section Two---------------------------------->
 
 <!------------------------Section Three------------------------------------->
-<div class="sectionThree pb-5">
+<div class="sectionThree pb-5" id="sec-three">
     <div class="container">
 
         <div class="heading2 text-center pt-5 lh-lg position-relative">
@@ -355,7 +418,7 @@
 
 
                     <div class="nav-content1 mt-4 d-flex column-gap-4">
-                        <span class="icon3one"><i class="fa-solid fa-magnifying-glass rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-magnifying-glass rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Property Search</h4>
                             <p class="fs-5">
@@ -365,7 +428,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4">
-                        <span class="icon3one"><i class="fa-solid fa-calculator rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-calculator rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Financial Planning</h4>
                             <p class="fs-5">
@@ -375,7 +438,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4 justify-content-center">
-                        <span class="icon3one"><i class="fa-solid fa-handshake rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-handshake rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Negotiation Support</h4>
                             <p class="fs-5">
@@ -415,7 +478,7 @@
 
 
                     <div class="nav-content1 mt-4 d-flex column-gap-4">
-                        <span class="icon3two"><i class="fa-solid fa-chart-line rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3two py-4"><i class="fa-solid fa-chart-line rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Market Analysis</h4>
                             <p class="fs-5">
@@ -425,7 +488,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4">
-                        <span class="icon3two"><i class="fa-solid fa-camera rounded-3 fs-5 p-4"></i></i></span>
+                        <span class="icon3two py-4"><i class="fa-solid fa-camera rounded-3 fs-5 p-3 d-inline"></i></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Professional Marketing</h4>
                             <p class="fs-5">
@@ -435,7 +498,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4 justify-content-center">
-                        <span class="icon3two"><i class="fa-solid fa-users rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3two py-4"><i class="fa-solid fa-users rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Buyer Screening</h4>
                             <p class="fs-5">
@@ -476,7 +539,7 @@
 
 
                     <div class="nav-content1 mt-4 d-flex column-gap-4">
-                        <span class="icon3one"><i class="fa-solid fa-map-location-dot rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-map-location-dot rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Prime Locations</h4>
                             <p class="fs-5">
@@ -486,7 +549,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4">
-                        <span class="icon3one"><i class="fa-solid fa-shield-halved rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-shield-halved rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Verified Properties</h4>
                             <p class="fs-5">
@@ -496,7 +559,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4 justify-content-center">
-                        <span class="icon3one"><i class="fa-solid fa-screwdriver-wrench rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3one py-4"><i class="fa-solid fa-screwdriver-wrench rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">24/7 Support</h4>
                             <p class="fs-5">
@@ -537,7 +600,7 @@
 
 
                     <div class="nav-content1 mt-4 d-flex column-gap-4">
-                        <span class="icon3four"><i class="fa-solid fa-chart-pie rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3four py-4"><i class="fa-solid fa-chart-pie rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Portfolio Analysis</h4>
                             <p class="fs-5">
@@ -547,7 +610,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4">
-                        <span class="icon3four"><i class="fa-solid fa-money-bill-wave rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3four py-4"><i class="fa-solid fa-money-bill-wave rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">ROI Projections</h4>
                             <p class="fs-5">
@@ -557,7 +620,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4 justify-content-center">
-                        <span class="icon3four"><i class="fa-solid fa-gear rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3four py-4"><i class="fa-solid fa-gear rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Property Management</h4>
                             <p class="fs-5">
@@ -598,7 +661,7 @@
 
 
                     <div class="nav-content1 mt-4 d-flex column-gap-4">
-                        <span class="icon3five"><i class="fa-solid fa-building rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3five py-4"><i class="fa-solid fa-building rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Office Spaces</h4>
                             <p class="fs-5">
@@ -608,7 +671,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4">
-                        <span class="icon3five"><i class="fa-solid fa-warehouse rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3five py-4"><i class="fa-solid fa-warehouse rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Industrial Properties</h4>
                             <p class="fs-5">
@@ -618,7 +681,7 @@
                     </div>
 
                     <div class="nav-content1 mt-3 d-flex column-gap-4 justify-content-center">
-                        <span class="icon3five"><i class="fa-solid fa-store rounded-3 fs-5 p-4"></i></span>
+                        <span class="icon3five py-4"><i class="fa-solid fa-store rounded-3 fs-5 p-3 d-inline"></i></span>
                         <div class="content3one">
                             <h4 class="fw-bold fs-4">Retail Spaces</h4>
                             <p class="fs-5">
@@ -652,7 +715,7 @@
 <!------------------------End Section Three---------------------------------->
 
 <!------------------------Section Four------------------------------------->
-<div class="sectionFour py-4 mt-5">
+<div class="sectionFour py-4 mt-5" id="sec-four">
     <div class="container">
 
         <div class="heading2 text-center pt-5 lh-lg position-relative">
@@ -852,7 +915,7 @@
 <!------------------------End Section Four---------------------------------->
 
 <!------------------------Section Five------------------------------------->
-<div class="sectionFive py-5">
+<div class="sectionFive py-5" id="sec-five">
     <div class="container">
 
         <div class="heading2 text-center pt-5 lh-lg position-relative">
@@ -965,7 +1028,7 @@
 
 
 <!------------------------Section Six------------------------------------->
-<div class="sectionSix">
+<div class="sectionSix" id="sec-six">
     <div class="container container6">
 
         <div class="heading2 text-center pt-5 lh-lg position-relative">
