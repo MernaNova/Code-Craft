@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+
+}
+
+.sectionOne{
+    background-color: #FFFBEA;
+    
+}
+
+.container {
+    width:80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.card {
+    height: 700px;
+}
+
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.red-color {
+    color:#FB2C36;
+}
+
+.burgandy-color {
+    color:#9F0712;
+}
+
+.alerting {
+    background-color: #FEF2F2;
+    border-left: 3px solid #FB2C36;
+}
+
+.ingrediantsWrapper {
+    height: 340px;
+}
+
+
+.orange-color{
+ color: #F54A00;
+}
+
+.nav .nav-item.active {
+    color:  #F54A00;
+}
+
+.tab-content {
+    background-color: #FFF9EC;
+}
+
+.bottom-ribbon {
+    text-align: center;
+
+}
+
+button {
+    background-image: linear-gradient(to right, #f97c07, #F34200);
+    border: none;
+
+}
